@@ -9,6 +9,7 @@ Facilitator: [@aghassemi](https://github.com/aghassemi)
 - [@andrewwatterson](https://github.com/andrewwatterson) - Andrew Watterson
 - [@cathyxz](https://github.com/cathyxz) - Cathy Zhu
 - [@cvializ](https://github.com/cvializ) - Carlos Vializ
+- [@joneleven](https://github.com/JonEleven) - Jonathan Leventhal
 - [@nainar](https://github.com/nainar) - Naina Raisinghani
 - [@sparhami](https://github.com/sparhami) - Sepand Parhami
 
