@@ -2,7 +2,7 @@
 name: Meeting Agenda/Notes
 about: Used to track the agenda for Working Group meetings and record notes from the
   meeting.
-title: wg-outreach Meeting YYYY-MM-DD
+title: wg-ui Meeting YYYY-MM-DD
 labels: 'Type: Meeting'
 assignees: ''
 
