@@ -7,6 +7,7 @@ Facilitator: [@aghassemi](https://github.com/aghassemi)
 - [@aghassemi](https://github.com/aghassemi) - Ali Ghassemi (Facilitator)
 - [@alanorozco](https://github.com/alanorozco) - Alan Orozco
 - [@andrewwatterson](https://github.com/andrewwatterson) - Andrew Watterson
+- [@caroqliu](https://github.com/caroqliu) - Caroline Liu
 - [@cathyxz](https://github.com/cathyxz) - Cathy Zhu
 - [@cvializ](https://github.com/cvializ) - Carlos Vializ
 - [@joneleven](https://github.com/JonEleven) - Jonathan Leventhal
