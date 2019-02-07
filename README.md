@@ -1,5 +1,5 @@
 # wg-ui
-**wg-ui** [Working Group](https://github.com/ampproject/meta/blob/master/GOVERNANCE.md#working-groups) is responsible for AMP's visual components &amp; interactions and AMP's overall user experience (including published guidelines for AMP UX). The UI Working Group also has overall responsibility for ensuring AMP is accessible, though each WG is responsible for ensuring accessibility within their areas of responsibility.
+**wg-ui** [Working Group](https://github.com/ampproject/meta/blob/master/GOVERNANCE.md#working-groups) is responsible for AMP's visual components &amp; interactions and AMP's overall accessibility and user experience (including published guidelines for AMP UX). The UI Working Group also has overall responsibility for ensuring AMP is accessible, though each WG is responsible for ensuring accessibility within their areas of responsibility.
 
 Facilitator: [@aghassemi](https://github.com/aghassemi)
 
