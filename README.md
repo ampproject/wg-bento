@@ -12,6 +12,7 @@ Facilitator: [@aghassemi](https://github.com/aghassemi)
 - [@cvializ](https://github.com/cvializ) - Carlos Vializ
 - [@danielcyoung](https://github.com/danielcyoung) - Daniel Young
 - [@joneleven](https://github.com/JonEleven) - Jonathan Leventhal
+- [@kristoferbaxter](https://github.com/kristoferbaxter) - Kristofer Baxter
 - [@nainar](https://github.com/nainar) - Naina Raisinghani
 - [@sparhami](https://github.com/sparhami) - Sepand Parhami
 
