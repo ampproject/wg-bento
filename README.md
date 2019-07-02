@@ -1,10 +1,11 @@
 # wg-ui-and-a11y
 **wg-ui-and-a11y** [Working Group](https://github.com/ampproject/meta/blob/master/GOVERNANCE.md#working-groups) is responsible for AMP's visual components &amp; interactions and AMP's overall accessibility and user experience (including published guidelines for AMP UX). The UI Working Group also has overall responsibility for ensuring AMP is accessible, though each WG is responsible for ensuring accessibility within their areas of responsibility.
 
-Facilitator: [@aghassemi](https://github.com/aghassemi)
+Facilitator: [@nainar](https://github.com/aghassemi)
 
 # Members
-- [@aghassemi](https://github.com/aghassemi) - Ali Ghassemi (Facilitator)
+- [@nainar](https://github.com/nainar) - Naina Raisinghani (Facilitator)
+- [@aghassemi](https://github.com/aghassemi) - Ali Ghassemi 
 - [@alanorozco](https://github.com/alanorozco) - Alan Orozco
 - [@andrewwatterson](https://github.com/andrewwatterson) - Andrew Watterson
 - [@cathyxz](https://github.com/cathyxz) - Cathy Zhu
@@ -12,7 +13,6 @@ Facilitator: [@aghassemi](https://github.com/aghassemi)
 - [@danielcyoung](https://github.com/danielcyoung) - Daniel Young
 - [@joneleven](https://github.com/JonEleven) - Jonathan Leventhal
 - [@kristoferbaxter](https://github.com/kristoferbaxter) - Kristofer Baxter
-- [@nainar](https://github.com/nainar) - Naina Raisinghani
 - [@sparhami](https://github.com/sparhami) - Sepand Parhami
 
 Github team https://github.com/orgs/ampproject/teams/wg-ui-and-a11y also includes UI WG members.
