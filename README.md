@@ -14,6 +14,7 @@ Facilitator: [@nainar](https://github.com/aghassemi)
 - [@joneleven](https://github.com/JonEleven) - Jonathan Leventhal
 - [@kristoferbaxter](https://github.com/kristoferbaxter) - Kristofer Baxter
 - [@sparhami](https://github.com/sparhami) - Sepand Parhami
+- [@wassgha](https://github.com/wassgha) - Wassim Gharbi
 
 Github team https://github.com/orgs/ampproject/teams/wg-ui-and-a11y also includes UI WG members.
 
