@@ -21,6 +21,7 @@ Github team https://github.com/orgs/ampproject/teams/wg-ui-and-a11y also include
 
 # Communication Channels
 - UI Working Group members will use `#wg-ui-and-a11y` channel on AMP's Slack ([signup](https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform?fbzx=4406980310789882877)) for real-time discussion. The channel is open to anyone, regardless of membership in UI working group.
+- UI Working Group will have **Sprint planning meetings** once every 2 weeks. To join in please dial into the following [Hangouts Meet room](https://meet.google.com/auo-gesx-tto). You can also duplicate [this](https://calendar.google.com/calendar/r/eventedit/duplicate/MHZhMzZzOHRhZGo0MjFoOWY2cjJpbGxrNGhfMjAxOTEwMTFUMTgwMDAwWiBuYWluYXJAZ29vZ2xlLmNvbQ?scp=ALL) calendar reminder to remind yourself of this meeting. 
 - UI Working Group will post **Status Updates** every two weeks as an issue labeled with `Type: Status Update` in this repository.
 - UI Working Group will post **Announcements and Notices** regarding events as an issue labeled with `Type: Event` in this repository.
 - UI Working Group will post **Quarterly Roadmap** as an issue labeled with `Type: Roadmap` in this repository.
