@@ -1,5 +1,7 @@
 # wg-foundation-onboarding
-The **wg-foundation-onboarding** [Working Group](https://github.com/ampproject/meta/blob/master/GOVERNANCE.md#working-groups) is responsible ensuring the successful completion of the OpenJS Foundation's onboarding process
+The **Foundation Onboarding** [Working Group](https://github.com/ampproject/meta/blob/master/GOVERNANCE.md#working-groups) is responsible for ensuring the successful completion of the OpenJS Foundation's onboarding process.
+
+For more context, see the [AMP announcement](https://blog.amp.dev/2019/10/10/amp-is-joining-the-openjs-foundation-incubation-program/) and [OpenJS Foundation announcement](https://openjsf.org/blog/2019/10/10/openjs-foundation-welcomes-amp-project-to-help-improve-user-experience-on-the-web/) of AMP joining the OpenJS Foundation's incubation program.
 
 Facilitator: [@tobie](https://github.com/tobie)
 
