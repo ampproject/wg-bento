@@ -7,7 +7,7 @@ Facilitator: [@tobie](https://github.com/tobie)
 - [@tobie](https://github.com/nainar) - Tobie Langel (Facilitator)
 - [@jrozier](https://github.com/jrozier) - Joey Rozier
 
-The Github team https://github.com/orgs/ampproject/teams/wg-foundation-onboarding also includes UI WG members.
+The [wg-foundation-onboarding Github team](https://github.com/orgs/ampproject/teams/wg-foundation-onboarding) includes the members of this working group.
 
 # Communication Channels
 - The Foundation Onboarding Working Group members will use [`#wg-foundation-onboarding` channel](https://app.slack.com/client/T0ADHJGD6/CPQL19SCV) on AMP's Slack ([signup](https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform?fbzx=4406980310789882877)) for real-time discussion. The channel is open to anyone, regardless of membership in the working group.
