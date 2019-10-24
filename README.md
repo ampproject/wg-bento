@@ -3,6 +3,12 @@ The **Foundation Onboarding** [Working Group](https://github.com/ampproject/meta
 
 For more context, see the [AMP announcement](https://blog.amp.dev/2019/10/10/amp-is-joining-the-openjs-foundation-incubation-program/) and [OpenJS Foundation announcement](https://openjsf.org/blog/2019/10/10/openjs-foundation-welcomes-amp-project-to-help-improve-user-experience-on-the-web/) of AMP joining the OpenJS Foundation's incubation program.
 
+To graduate from the incubation program, AMP must complete the [onboarding checklist](https://github.com/openjs-foundation/cross-project-council/issues/350).
+
+The WG maintains an org-level [project board](https://github.com/orgs/ampproject/projects/4) to track all issues related to this effort.
+
+The tentative date for graduation is December 10, 2019.
+
 Facilitator: [@tobie](https://github.com/tobie)
 
 # Members
