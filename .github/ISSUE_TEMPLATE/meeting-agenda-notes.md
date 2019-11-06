@@ -21,4 +21,8 @@ Google Meet meeting: https://meet.google.com/vkp-zfqb-ofi
 * Review [project board](https://github.com/orgs/ampproject/projects/4)
 * Update [onboarding checklist](https://github.com/openjs-foundation/cross-project-council/issues/350)
 
+# Minutes
+
+* [Google doc](https://docs.google.com/document/d/13vuBXOcMkIalc7rRnAQfspTeAHRAu5Kv1W4HwayDOMo/edit?pli=1)
+
 *Note: Add a comment on this issue to propose items for the agenda.*
