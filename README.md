@@ -18,7 +18,7 @@ Facilitator: [@tobie](https://github.com/tobie)
 - [@jrozier](https://github.com/jrozier) - Joey Rozier
 - [@jorydotcom](https://github.com/jorydotcom) - Jory Burson
 - [@nainar](https://github.com/nainar) - Naina Raisinghani 
-- [@rsimha](https://github.com/rsimha) - Rhagu Simha
+- [@rsimha](https://github.com/rsimha) - Raghu Simha
 - [@sebastianbenz](https://github.com/sebastianbenz) - Sebastian Benz
 - [@tobie](https://github.com/tobie) - Tobie Langel (Facilitator)
 
