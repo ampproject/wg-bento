@@ -12,8 +12,15 @@ The tentative date for graduation is December 10, 2019.
 Facilitator: [@tobie](https://github.com/tobie)
 
 # Members
-- [@tobie](https://github.com/nainar) - Tobie Langel (Facilitator)
+- [@brianwarner](https://github.com/brianwarner) - Brian Warner
+- [@CrystalOnScript](https://github.com/CrystalOnScript) - Crystal Lambert
+- [@Gregable](https://github.com/Gregable) - Greg Grothaus
 - [@jrozier](https://github.com/jrozier) - Joey Rozier
+- [@jorydotcom](https://github.com/jorydotcom) - Jory Burson
+- [@nainar](https://github.com/nainar) - Naina Raisinghani 
+- [@rsimha](https://github.com/rsimha) - Rhagu Simha
+- [@sebastianbenz](https://github.com/sebastianbenz) - Sebastian Benz
+- [@tobie](https://github.com/tobie) - Tobie Langel (Facilitator)
 
 The [wg-foundation-onboarding Github team](https://github.com/orgs/ampproject/teams/wg-foundation-onboarding) includes the members of this working group.
 
