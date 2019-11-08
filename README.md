@@ -1,5 +1,5 @@
 # wg-bento
-The **Bento** [Working Group](https://github.com/ampproject/meta/blob/master/GOVERNANCE.md#working-groups) is responsible for...
+The **Bento** [Working Group](https://github.com/ampproject/meta/blob/master/GOVERNANCE.md#working-groups) is responsible for evaluating, designing, and implementing the architecture in which AMP elements can be used without AMP Runtime, and/or within popular Web frameworks.
 
 Facilitator: [@dvoytenko](https://github.com/dvoytenko)
 
