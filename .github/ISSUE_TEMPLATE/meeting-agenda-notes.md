@@ -3,7 +3,7 @@ name: Meeting Agenda/Notes
 about: Used to track the agenda for Working Group meetings and record notes from the
   meeting.
 title: wg-foundation-onboarding Meeting YYYY-MM-DD
-labels: 'Type: Meeting'
+labels: ''
 assignees: ''
 
 ---
