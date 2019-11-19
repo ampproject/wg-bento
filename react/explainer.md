@@ -9,7 +9,7 @@ Prototype: [repo](https://github.com/ampproject/amp-react-prototype), [decision 
 The concept of building AMP extensions using React/Preact has been introduced
 in the [AMP Contributor Summit 2019 talk](https://www.youtube.com/watch?v=s78VcduTOqE).
 
-With Bento, we will need to support the following component modes:
+With Bento Project, we will need to support the following component modes:
  1. AMP mode: run on an AMP page;
  2. "Bento" mode: run on a regular web page not managed by the AMP framework;
  3. 3P framework mode: allowing a 3P framework to directly use an AMP component.
@@ -26,8 +26,9 @@ The AMP elements have the following needs:
 
 Mutability is the key requirement for Bento. Currently, if an AMP element needs
 to support an attribute or a child mutation, it has to manually add a listener
-or a mutation observer and apply changes. This architecture is difficult to
-maintain and error-prone. Instead we'd like AMP elements to be mutable "by design".
+or a mutation observer and manually apply changes. Imperative code like this is
+difficult to maintain and error-prone. Instead we'd like AMP elements to be
+mutable "by design".
 
 To simplify the mutability problem we need the main part of the AMP element's
 implementation to be reenterable. What if we just had a "render" method?
@@ -37,12 +38,14 @@ implementation to be reenterable. What if we just had a "render" method?
  - Element is visible in user’s viewport? Call the render method.
 
 React model fits this picture very well: there's a single "render" method and
-rendering side-effects with internal state.
+rendering side-effects with internal state. This completely isolates the UI and
+rendering from the external environment, meaning we can reuse the same code in
+each of the 3 modes.
 
 A very simple example could look like this:
 
 ```
-// A single "render" method/
+// A single "render" method.
 export function AmpImg(props) {
   // State.
   const loadable = useIsLoadable();
@@ -63,13 +66,17 @@ export function AmpImg(props) {
 }
 ```
 
+Thus, using React model we get mutability by design - our main goal. However,
+in addition, the React components themselves could be usable independently
+without the web components part.
+
 
 ## React vs Preact
 
 Such elements would be compatible between React and Preact. But for the AMP
 documents framework we can focus on Preact implementation. What we get from
 Preact is:
- 1. Small footprint; btter bundling/DCE.
+ 1. Small footprint; better bundling/DCE.
  2. We write our component logic once:  declarative UI, with the component's
     state, all wrapped up in a render method.
  3. Mutable by design.
@@ -91,7 +98,7 @@ AMP Framework will be responsible for:
  - Cross-element and service dependencies;
 
 
-Bento layer will be responsible for:
+Bento mode layer will be responsible for:
  - Custom element implementation that wraps a React/Preact component;
  - Component/DOM mapping.
  - Monitoring DOM mutations;
@@ -153,7 +160,7 @@ using DOM element reparenting or clonning - they either break the initial DOM
 structure or lose event listeners. The final implementation DOM structure
 produced by the React component would be somewhat involved: the slides will be
 placed in a scrollable container and laid out using flexbox. In a generic case,
-the implementation DOM structure is arbitrary complex and can change from
+the implementation DOM structure is arbitrarily complex and can change from
 release to release.
 
 So, how would we address these concerns? We can use Shadow DOM. The light subtree
