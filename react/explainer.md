@@ -1,6 +1,6 @@
 # Using React/Preact to implement AMP elements
 
-Discussion: [issues](https://github.com/ampproject/wg-bento/labels/Discussion%3A%20React), [new issue](https://github.com/ampproject/wg-bento/issues/new?labels=Discussion%3A+React).
+Discussion: [issues](https://github.com/ampproject/wg-bento/issues?q=is%3Aopen+is%3Aissue+project%3Aampproject%2Fwg-bento%2F1), [new issue](https://github.com/ampproject/wg-bento/issues/new?template=discussion.md&projects=ampproject/wg-bento/1).
 
 Prototype: [repo](https://github.com/ampproject/amp-react-prototype), [decision points](https://github.com/ampproject/amp-react-prototype/labels/TBD).
 
