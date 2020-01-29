@@ -1,0 +1,18 @@
+title: Bento
+description: The Bento Working Group is responsible for evaluating, designing, and implementing the architecture in which AMP elements can be used without AMP Runtime, and/or within popular Web frameworks.
+facilitator:
+  login: dvoytenko
+  name: Dima Voytenko
+members:
+  - login: choumx
+    name: Will Chou
+  - login: jridgewell
+    name: Justin Ridgewell
+  - login: nainar
+    name: Naina Raisinghani
+communication:
+ - channel: slack
+    name: Slack
+    content:
+      - item: The Bento Working Group members will use `#wg-bento` channel on AMP's Slack ([signup](https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform?fbzx=4406980310789882877)) for real-time discussion. The channel is open to anyone, regardless of membership in the working group.
+      - item: The Bento Working Group will have weekly meetings to track onboarding progress, open to the community. Notes from this meeting will serve as weekly status updates. Meetings are listed in the issue tracker using the "Meeting" label.
