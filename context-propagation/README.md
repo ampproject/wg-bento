@@ -26,17 +26,16 @@ while (n) {
   }
 }
 return null;
-
 ```
 
 See [navigate.js](./navigate.js) for all types of navigations. Note, that
 it doesn't look possible to construct the composed search using `closest()`.
 
-For all browsers tested, these are the findings:
+For all browsers tested, using randomized DOM trees, these are the findings:
 
 1. As mentioned above, `closest()` is not applicable where shadow boundaries are present.
-2. Except in Firefox, `parentNode` search was faster than other methods: 10% faster than
- querying, and ~10x faster than event propagation.
-3. A rough timing estimate is 6ms per 10K searches.
-4. The DOM trees have not been sufficiently randomized in the first round of tests
- to have confidence in these numbers.
+2. The `parentNode` search and the `closest` do not show a statistically significant
+performance differential.
+3. A rough timing estimate is 30ms per 10K searches.
+4. In all applicable tests, the composed-events approach was about 5x slower than
+either the `parentNode` or the `closest()` approaches.

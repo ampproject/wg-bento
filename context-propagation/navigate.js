@@ -15,36 +15,46 @@
  */
 
 function test(func) {
+
   // Test1:
   const attr = 'data-root';
   const root = document.querySelector(`[${attr}]`);
-  const node = l5.shadowRoot.getElementById('sd_l3');
+  const getNode = () => document.getElementById('l5').shadowRoot.getElementById('sd_l3');
 
   // Test2:
   // const attr = 'data-root-2';
-  // const root = l5.shadowRoot.querySelector(`[${attr}]`);
-  // const node = ld5_slot1;
+  // const root = document.getElementById('l5').shadowRoot.querySelector(`[${attr}]`);
+  // const getNode = () => document.getElementById('ld5_slot1');
 
   console.log('func:', func.name);
   console.log('root:', root);
-  console.log('node:', node);
   root.FIND_ME = true;
   if (func.setup) {
     func.setup(root);
   }
   console.profile(func.name);
-  const startTime = performance.now();
+  let time = 0;
   performance.mark('test:' + func.name);
   for (let i = 0; i < 10000; i++) {
+    const clone = root.cloneNode(true);
+    clone.firstElementChild.setAttribute('data-v', i);
+    expandDom(clone);
+    root.textContent = '';
+    root.append(...clone.children);
+
+    const node = getNode();
+
+    const startTime = performance.now();
     const result = func(node, attr);
+    const endTime = performance.now();
+    time += endTime - startTime;
     if (result !== root) {
       throw new Error('not found');
     }
   }
   performance.measure('test:' + func.name + '-end', 'test:' + func.name);
-  const endTime = performance.now();
   console.profileEnd(func.name);
-  console.log('done ', func.name, ':', endTime - startTime);
+  console.log('done ', func.name, ':', time);
   root.FIND_ME = false;
 }
 

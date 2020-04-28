@@ -35,14 +35,17 @@ function domReady() {
 }
 
 domReady().then(() => {
-  const sdTemplates = document.querySelectorAll('template[data-shadowroot]');
-  Array.from(sdTemplates).forEach(createShadowRoot);
+  expandDom(document);
   setTimeout(() => performance.mark('test:domReady'));
 });
+
+function expandDom(root) {
+  const sdTemplates = root.querySelectorAll('template[data-shadowroot]');
+  Array.from(sdTemplates).forEach(createShadowRoot);
+}
 
 function createShadowRoot(template) {
   const host = template.parentElement;
   const shadowRoot = host.attachShadow({mode: 'open'});
-  shadowRoot.append(template.content);
-  template.remove();
+  shadowRoot.append(template.content.cloneNode(true));
 }
