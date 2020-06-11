@@ -18,6 +18,7 @@ import {ContextNode} from './context-node';
 import {MeasureSizeProvider} from './measure-size';
 import {AmpContextProvider} from './amp-context';
 import {BaseUriContext} from './base-uri';
+import {HiddenNodeComponent} from './hidden-node';
 
 /** @param {!AmpDoc} ampdoc */
 export function installRootContexts(ampdoc) {
@@ -31,6 +32,9 @@ export function installRootContexts(ampdoc) {
 
   // Base URI.
   root.set(BaseUriContext.Provider, {value: ampdoc.getUrl()});
+
+  // Hidden node.
+  root.set(HiddenNodeComponent);
 }
 
 function AmpdocVisibilityProvider({ampdoc, children}) {

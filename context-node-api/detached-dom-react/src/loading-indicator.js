@@ -23,6 +23,10 @@ export class LoadingIndicatorService {
     this.io_ = new IntersectionObserver(this.handleIntersections_.bind(this));
   }
 
+  disponse() {
+    this.io_.disconnect();
+  }
+
   /**
    * TBD: Not sure how to provide this API yet, but let's assume that it exists
    * and ContextNode can notify us when a completely new node has appeared that

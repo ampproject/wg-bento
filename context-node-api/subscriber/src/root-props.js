@@ -23,6 +23,7 @@ import {
   MeasureSizeProp,
 } from './standard-props';
 import {MeasureSizeService} from './measure-size';
+import {installHiddenNodeService} from './hidden-node';
 
 /** @param {!AmpDoc} ampdoc */
 export function installRootProps(ampdoc) {
@@ -34,7 +35,7 @@ export function installRootProps(ampdoc) {
     root.set(RootVisibilityProp, ampdoc.getVisibilityState()));
 
   // Automaticlaly recalculate `Renderable` whenever root visibility changes.
-  contextRoot.provide(
+  root.provide(
     RenderableProp,
     contextCalc({
       deps: [RootVisibilityProp],
@@ -45,6 +46,9 @@ export function installRootProps(ampdoc) {
 
   // Base URI.
   root.set(BaseUriProp, ampdoc.getUrl());
+
+  // Hidden nodes.
+  installHiddenNodeService(ampdoc);
 }
 
 
