@@ -1,7 +1,7 @@
 ---
 name: Status Update
 about: Used to provide regular status updates from this working group to the community.
-title: wg-ui-and-a11y Status Update YYYY-MM-DD
+title: wg-bento Status Update YYYY-MM-DD
 labels: ''
 assignees: ''
 
