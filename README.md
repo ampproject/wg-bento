@@ -4,10 +4,13 @@ The **Bento** [Working Group](https://github.com/ampproject/meta/blob/master/GOV
 Facilitator: [@dvoytenko](https://github.com/dvoytenko)
 
 # Members
-- [@choumx](https://github.com/choumx) - Will Chou
-- [@dvoytenko](https://github.com/dvoytenko) - Dima Voytenko
+- [@dvoytenko](https://github.com/dvoytenko) - Dima Voytenko (Facilitator)
 - [@jridgewell](https://github.com/jridgewell) - Justin Ridgewell
 - [@nainar](https://github.com/nainar) - Naina Raisinghani
+- [@alanorozco](https://github.com/alanorozco) - Alan Orozco
+- [@caroqliu](https://github.com/caroqliu) - Caroline Liu
+- [@krdwan](https://github.com/krdwan) - Kevin Dwan
+- [@kristoferbaxter](https://github.com/kristoferbaxter) - Kristofer Baxter
 
 The [wg-bento Github team](https://github.com/orgs/ampproject/teams/wg-bento) includes the members of this working group.
 
