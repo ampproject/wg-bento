@@ -24,4 +24,4 @@ communication:
  - channel: github
    name: GitHub
    content:
-     - item: "The Bento Working Group will have **weekly meetings** to track onboarding progress, open to the community.  Notes from this meeting will serve as weekly status updates. Meetings are listed in the issue tracker using the ["Meeting" label](https://github.com/ampproject/wg-bento/labels/Meeting)."
+     - item: "The Bento Working Group will have **weekly meetings** to track onboarding progress, open to the community.  Notes from this meeting will serve as weekly status updates. Meetings are listed in the issue tracker using the [`Meeting` label](https://github.com/ampproject/wg-bento/labels/Meeting)."
