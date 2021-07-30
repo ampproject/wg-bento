@@ -11,6 +11,7 @@ Facilitator: [@dvoytenko](https://github.com/dvoytenko)
 - [@caroqliu](https://github.com/caroqliu) - Caroline Liu
 - [@krdwan](https://github.com/krdwan) - Kevin Dwan
 - [@kristoferbaxter](https://github.com/kristoferbaxter) - Kristofer Baxter
+- [@kvchari](https://github.com/kvchari) - Keshav Varadachari
 
 The [wg-bento Github team](https://github.com/orgs/ampproject/teams/wg-bento) includes the members of this working group.
 
