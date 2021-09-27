@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-## What was accomplished
+## What was accomplished 🍱
 
 ## Lessons learned
 
-## What's next
+## What's next ⏩
